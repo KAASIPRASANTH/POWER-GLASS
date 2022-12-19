@@ -3,7 +3,7 @@ tess.pytesseract.tesseract_cmd = r'C:\Users\ADMIN\AppData\Local\Tesseract-OCR\te
 from PIL import Image
 import pyttsx3
 import cv2
-
+#project
 def speech(text):
     engine = pyttsx3.init()
     engine.setProperty("rate",125)
